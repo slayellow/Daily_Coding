@@ -1,7 +1,4 @@
-import numpy as np
+import torch
 
-a = np.zeros((4,4))
-print(a)
-
-
-print("hello world")
+# Pytorch GPU 버전 사용을 위해선 mps 입력 필요
+print(torch.device('mps'))
